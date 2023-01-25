@@ -11,19 +11,17 @@ const navbar = [
   'Team',
   'Blog',
   "Buyer's Guide",
-  'About Us',
-  'Contact Us',
 ];
 const Header = () => {
   return (
     <div className="Header">
       <Row className="main">
-        <Col md={3}>
+        <Col lg={4} sm={4}>
           <Link to="/">
             <img src={logo} alt="Logo" />
           </Link>
         </Col>
-        <Col md={9}>
+        <Col className='nav-bar-center' lg={8} sm={8}>
           <ul>
             {navbar.map((nav) => (
               <li key={[nav]}>

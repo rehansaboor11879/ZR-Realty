@@ -13,7 +13,7 @@ const services = () => {
         <Col sm={12}>
           <h2>The Smartest way to Buy a Home</h2>
         </Col>
-        <Col className="flexcard" sm={12}>
+        <Col className="flexcard" lg={12} sm={12} >
           <Cards />
         </Col>
       </Row>
