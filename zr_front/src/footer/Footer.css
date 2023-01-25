@@ -1,0 +1,28 @@
+.footer_main {
+  margin-top: 10%;
+  width: 99%;
+  height: 700px;
+}
+
+.col1 {
+  color: blue;
+  padding-top: 10rem;
+  padding-left: 8rem;
+}
+.col2 {
+  padding-top: 10rem;
+}
+
+h4 {
+  color: blue;
+  margin-top: 3rem;
+}
+
+h4:hover {
+  color: blue;
+  font-weight: bolder;
+}
+
+.img1 {
+  width: 400px;
+}

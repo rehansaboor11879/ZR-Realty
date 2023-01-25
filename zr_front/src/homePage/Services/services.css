@@ -1,0 +1,35 @@
+.main1 {
+  background-color: white;
+  margin-top: 6rem;
+  width: 99%;
+  text-align: center;
+  height: 600px;
+}
+
+h1,
+h2 {
+  margin-bottom: 3rem;
+  font-weight: bold;
+}
+h1 {
+  color: red;
+}
+
+.card {
+  background-color: rgb(20, 212, 14);
+  height: 300px;
+  border-radius: 2rem;
+  justify-content: center;
+  margin-left: 18rem;
+  margin-top: 6rem;
+  width: 250px;
+}
+
+.flexcard {
+  display: flex;
+}
+
+.text-muted {
+  color: black;
+  font-size: 3rem;
+}
